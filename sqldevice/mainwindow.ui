@@ -50,6 +50,13 @@
       <height>751</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -58,7 +65,7 @@
      <x>0</x>
      <y>0</y>
      <width>1200</width>
-     <height>26</height>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="file">
@@ -69,7 +76,7 @@
    </widget>
    <widget class="QMenu" name="about">
     <property name="title">
-     <string>关于</string>
+     <string>关于(&amp;A)</string>
     </property>
    </widget>
    <addaction name="file"/>
