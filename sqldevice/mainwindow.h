@@ -15,6 +15,8 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    void mousePressEvent(QMouseEvent *event);
+
 private:
     Ui::MainWindow *ui;
 };
