@@ -15,7 +15,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-#if 0
+#if 1
 void MainWindow::mousePressEvent(QMouseEvent *event)
 {
     static int i=1;
